@@ -261,24 +261,31 @@ textarea {
   }
 }
 
-.bi {
-    vertical-align: -.125em;
-    fill: currentColor;
+hu-music-player{
+  display: block;
 }
 
-.me-2 {
-    margin-right: .5rem!important;
+body{
+  height: 100vh;
+  overflow: auto;
 }
 
-.card-cover {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+#lrc-container{
+  padding: 300px 80px;
+  transition: padding-top 0.15s linear 0.15s;
+}
+p{
+  transition: font-size 0.05s linear 0.05s;
+  -webkit-transition:font-size 0.05s linear 0.05s;
 }
 
-.rounded-5 {
-    border-radius: 1rem;
+.lrc-active{
+  /*background: blueviolet;*/
+  /*color: white;*/
+  font-size: 38px;
+  /*border-radius: 12px;*/
 }
+
 
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
