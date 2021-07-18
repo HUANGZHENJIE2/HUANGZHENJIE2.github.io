@@ -261,31 +261,12 @@ textarea {
   }
 }
 
-hu-music-player{
-  display: block;
-}
 
-body{
-  height: 100vh;
-  overflow: auto;
+#hCanvas{
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-
-#lrc-container{
-  padding: 300px 80px;
-  transition: padding-top 0.15s linear 0.15s;
-}
-p{
-  transition: font-size 0.05s linear 0.05s;
-  -webkit-transition:font-size 0.05s linear 0.05s;
-}
-
-.lrc-active{
-  /*background: blueviolet;*/
-  /*color: white;*/
-  font-size: 38px;
-  /*border-radius: 12px;*/
-}
-
 
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
